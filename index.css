@@ -13,7 +13,13 @@ header {
 
 /* NAVBAR */
 
+.nav-area {
+  width: 100%;
+}
+
 .nav {
+  max-width: 1500px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   margin-bottom: 47px;
@@ -33,76 +39,89 @@ header {
 }
 
 .nav > ul > li {
+  color:rgba(11, 27, 221, 1);
   display: inline-flex;
-  margin: 0px 15px;
+  padding: 0px 15px;
   justify-content: space-between;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14.63px;
-  letter-spacing: 5%;
-}
-
-/* .nav > ul > li:hover {
-  margin: 0px 15px;
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 15px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-} */
+}
 
 /* BACKGROUP-HELLO */
 
 .hello-area {
+  background-image: url(./images/backgroup-area.png);
+  max-width: 100%;
   height: 522px;
-  position: relative;
 }
 
-.backgroup-area {
-  max-width: 1366px;
-  height: 522px;
-  position:absolute;
-}
-
-.image-hello {
+.hello {
   max-width: 960px;
-  height: 272px;
-  position: absolute;
-  top: 108px;
-  left: 216px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
 }
 
 .union-hello {
-  max-width: 337x;
-  height: 280px;
   position: absolute;
-  top: 138px;
-  left: 208px;
+  max-width: 337px;
+  height: 280px;
+}
+
+.sum-txt-hello {  
+  width: 100%;
+}
+
+.txt-hello {
+  width: 100%;
+  color: rgba(11, 27, 221, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 244px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .backgroup-point-blue {
+  max-width: 600px;
+  display: flex;
+  justify-content: end;
+}
+
+.backgroup-point-blue > img {
   position: relative;
   top: 35px;
   left: 915px;
   max-width: 448px;
   height: 56.5px;
-
 }
 
 /* ABOUT-COMPANY */
 
 .about-company {
-  margin-left: 110px;
+  max-width: 80%;
+  margin: 0px auto;
   display: flex;
   flex-direction: column;
 }
 
-
-.we-are-yellowblocks {
-  margin-left: 80px;
+.title-we-are {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
 }
 
-.we-are-yellowblocks > h1 {
+.title-we-are > h1 {
   display: flex;
   margin: auto;
   color: #0B1BDD;
@@ -114,7 +133,7 @@ header {
   height: 44px;
 }
 
-.we-are-yellowblocks > p {
+.title-we-are > p {
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
@@ -195,6 +214,10 @@ header {
 
 /* OUR-SERVICE-AREA */
 
+.our-service {
+  max-width: 100%;
+}
+
 .our-service > h1 {
   text-align: center;
   color: #0B1BDD;
@@ -204,18 +227,29 @@ header {
   letter-spacing: 0.05em;
   max-width: 305x;
   height: 44px;
-  margin-bottom: 33px;
+  margin-bottom: 150px;
 }
 
 /* BOX-SERVICE-AREA */
 
-.box-service-area {
+.background-our-service {
+  max-width: 100%;
+  height: 318px;  
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 75px;
+}
+
+.background-our-service {
+  background-image: url(./images/backgroup-our-service.png);
+  max-width: 100%;
+  height: 318px;
 }
 
 .business {
-  background-color: FFFFF;
+  background-color: white;
+  position: relative;
+  bottom: 135px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 372px;
   height: 327px; 
@@ -224,7 +258,6 @@ header {
 .business > div > ul {
   max-width: 300px;
   padding-left: 65px;
-  
 }
 
 .business > div > h3 {
@@ -251,7 +284,9 @@ header {
 }
 
 .management {
-  background-color: FFFFF;
+  background-color: white;
+  position: relative;
+  bottom: 135px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 372px;
   height: 327px; 
@@ -287,7 +322,9 @@ header {
 }
 
 .marketing-servive {
-  background-color: FFFFF;
+  background-color: white;
+  position: relative;
+  bottom: 135px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 372px;
   height: 327px; 
@@ -322,6 +359,396 @@ header {
   text-align: left;
 }
 
+/* .backgroup-our-service {
+  max-width: 100%;
+  width: 100%;
+  height: 318px;
+} */
 
+/* OUR-ACHIEVEMENTS */
 
+.achievements {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
 
+.achievements > img {
+  max-width: 100%;
+  height: 504px;
+}
+
+.our-achievements {
+  text-align: center;
+  color: #0B1BDD;
+  font-Weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  height: 44px;
+  margin-bottom: 40px;
+}
+
+/* AS-FEATURED-IN */
+
+.featured {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured > img {
+  max-width: 1219px;
+  height: 182px;
+  margin: 0px auto;
+}
+
+.as-featured-in {
+  text-align: center;
+  color: #0B1BDD;
+  font-Weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  height: 44px;
+  margin-bottom: 33px;
+}
+
+.backgroup-featured {
+  background-image: url(./images/backgroup-as-featured-in.png);
+  background-size: 100% 429px;
+  max-width: 100%;
+  height: 429px;
+  margin-bottom: 76px;
+}
+
+/* STRATEGIC-PARTNERS-&-CLIENTS */
+
+.strategic {
+  margin-bottom: 60px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.strategic-partners-clients {
+  text-align: center;
+  color: #0B1BDD;
+  font-Weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  height: 44px;
+  margin-bottom: 33px;
+}
+
+.strategic > img {
+  margin: 0px auto;
+  max-width: 80%;
+  height: 354px;
+}
+
+/* NEWSROOM */
+
+.newsroom {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-newsroom > h1 {
+  text-align: center;
+  color: #0B1BDD;
+  font-Weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  height: 44px;
+  margin-bottom: 33px;
+}
+
+.title-newsroom > p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.03px;
+}
+
+/* BOX-NEWSROOM */
+
+.box-newsroom {
+  background-color: #F7F7F7;
+  padding: 33px 0px 35px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+}
+
+.frankfurt-motor-show {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 365px;
+}
+
+.frankfurt-motor-show > img {
+  max-width: 365px;
+  width: 100%;
+  height: 242px;
+}
+
+.title-area {
+  max-width: 80%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.title-area > h6 {
+  color: rgba(64, 83, 189, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.title-area > h5 {
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+}
+
+.title-area > p {
+  opacity: 50%;
+  max-width: 278px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.wordpress {
+  max-width: 365px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.wordpress > img {
+  max-width: 365px;
+  width: 100%;
+  height: 242px;
+}
+
+.title-area {
+  max-width: 80%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.title-area > h6 {
+  color: rgba(64, 83, 189, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.title-area > h5 {
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+}
+
+.title-area > p {
+  opacity: 50%;
+  max-width: 278px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.explore {
+  max-width: 365px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.explore > img {
+  max-width: 365px;
+  width: 100%;
+  height: 242px;
+}
+
+.title-area {
+  max-width: 80%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.title-area > h6 {
+  color: rgba(64, 83, 189, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}
+
+.title-area > h5 {
+  color: rgba(0, 0, 0, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+}
+
+.title-area > p {
+  opacity: 50%;
+  max-width: 278px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+}
+
+/* OUR-TEAM */
+
+.our-team {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0px auto;
+  padding-bottom: 86px;
+}
+
+.our-team > h1 {
+  color: rgba(64, 83, 189, 1);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0px auto;
+  padding-bottom: 17px;
+}
+
+.img-our-team {
+  max-width: 100%;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.young-man {
+  height: calc(100vh - 217px);
+}
+
+.young-man > img {
+  max-width: 341px;
+  height: 510px;
+}
+
+.the-woman {
+  margin: 0px 16px;
+}
+
+.the-woman > img {
+  max-width: 399px;
+  height: 598px;
+}
+
+.our-team > p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center; 
+  letter-spacing: 0.03em;
+}
+
+.the-woman > p:first-child {
+  color:rgba(0, 0, 0, 0.5);
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.the-woman {
+  color:rgba(0, 0, 0, 0.5);
+  font-family: montserrat;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 10px;
+  line-height: 18.5px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.old-man {
+  height: calc(100vh - 217px);
+}
+
+.old-man > img {
+  max-width: 341px;
+  height: 510px;
+}
+
+footer {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.logo-yellow-footer {
+  flex: 2;
+}
+
+.logo-yellow-footer > img {
+  margin: 0px 0px 54px 66px;
+  max-width: 173px;
+  width: 100%;
+  height: 47px;
+}
+
+.icon > img {
+  max-width: 26px;
+  height: 26px;
+}
+
+.content-footer {
+  flex: 1;
+}
+
+.content-footer > p {
+  color: #000000;
+  opacity: 50%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px; 
+}
