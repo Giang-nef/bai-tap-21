@@ -9,6 +9,7 @@ header {
   display: flex;
   flex-direction: column;
   padding-bottom: 105px;
+  margin-bottom: 100px;
 }
 
 /* NAVBAR */
@@ -25,21 +26,21 @@ header {
   margin-bottom: 47px;
 }
 
-.nav > img {
+.nav>img {
   margin: 33px 0px 0px 33px;
   max-width: 194px;
   height: 53px;
 }
 
-.nav > ul {
+.nav>ul {
   margin: 53px 51px 0px 0px;
   align-items: center;
   justify-content: flex-end;
   list-style-type: none;
 }
 
-.nav > ul > li {
-  color:rgba(11, 27, 221, 1);
+.nav>ul>li {
+  color: rgba(11, 27, 221, 1);
   display: inline-flex;
   padding: 0px 15px;
   justify-content: space-between;
@@ -58,52 +59,58 @@ header {
   background-image: url(./images/backgroup-area.png);
   max-width: 100%;
   height: 522px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hello {
   max-width: 960px;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
   margin: 0px auto;
+  position: relative;
 }
 
 .union-hello {
   position: absolute;
+  bottom: 75px;
+  left: 30px;
   max-width: 337px;
   height: 280px;
 }
 
-.sum-txt-hello {  
+.sum-txt-hello {
   width: 100%;
 }
 
-.txt-hello {
-  width: 100%;
+.txt-hello > h1 {
   color: rgba(11, 27, 221, 1);
+  width: 100%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
   font-size: 200px;
   line-height: 244px;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
-  position: relative;
+  text-transform: uppercase;  
 }
 
 .backgroup-point-blue {
-  max-width: 600px;
+  max-width: 100%;
   display: flex;
   justify-content: end;
 }
 
-.backgroup-point-blue > img {
+.backgroup-point-blue>img {
   position: relative;
-  top: 35px;
-  left: 915px;
   max-width: 448px;
   height: 56.5px;
+  position: relative;
+  top: 60px;
 }
 
 /* ABOUT-COMPANY */
@@ -121,7 +128,7 @@ header {
   margin: 0px auto;
 }
 
-.title-we-are > h1 {
+.title-we-are>h1 {
   display: flex;
   margin: auto;
   color: #0B1BDD;
@@ -131,9 +138,10 @@ header {
   letter-spacing: 0.05em;
   max-width: 520px;
   height: 44px;
+  margin: 4px auto;
 }
 
-.title-we-are > p {
+.title-we-are>p {
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
@@ -142,6 +150,7 @@ header {
   letter-spacing: 0.03em;
   max-width: 1230px;
   height: 89px;
+  margin: 0px auto;
 }
 
 .area-our {
@@ -149,7 +158,7 @@ header {
   justify-content: space-evenly;
 }
 
-.our-vison > h1 {
+.our-vison>h1 {
   color: #0B1BDD;
   font-Weight bold;
   font-size: 36px;
@@ -160,7 +169,7 @@ header {
   margin-bottom: 30px;
 }
 
-.our-vison > p {
+.our-vison>p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 500;
@@ -170,7 +179,7 @@ header {
   height: 45px;
 }
 
-.our-mission > h1 {
+.our-mission>h1 {
   color: #0B1BDD;
   font-Weight: bold;
   font-size: 36px;
@@ -181,7 +190,7 @@ header {
   margin-bottom: 30px;
 }
 
-.our-mission > p {
+.our-mission>p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 500;
@@ -191,7 +200,7 @@ header {
   height: 45px;
 }
 
-.our-core-values > h1 {
+.our-core-values>h1 {
   color: #0B1BDD;
   font-Weight: bold;
   font-size: 36px;
@@ -202,7 +211,7 @@ header {
   margin-bottom: 30px;
 }
 
-.our-core-values > p {
+.our-core-values>p {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 500;
@@ -218,7 +227,7 @@ header {
   max-width: 100%;
 }
 
-.our-service > h1 {
+.our-service>h1 {
   text-align: center;
   color: #0B1BDD;
   font-Weight: bold;
@@ -234,7 +243,7 @@ header {
 
 .background-our-service {
   max-width: 100%;
-  height: 318px;  
+  height: 318px;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 75px;
@@ -252,15 +261,15 @@ header {
   bottom: 135px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 372px;
-  height: 327px; 
+  height: 327px;
 }
 
-.business > div > ul {
+.business>div>ul {
   max-width: 300px;
   padding-left: 65px;
 }
 
-.business > div > h3 {
+.business>div>h3 {
   color: rgba(253, 199, 36, 1);
   font-family: Montserrat;
   font-size: 24px;
@@ -273,7 +282,7 @@ header {
   padding: 51px 114px 0px 61px;
 }
 
-.business > div > ul > li {
+.business>div>ul>li {
   color: rgba(0, 0, 0, 0.5);
   font-family: Montserrat;
   font-size: 18px;
@@ -289,16 +298,15 @@ header {
   bottom: 135px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 372px;
-  height: 327px; 
+  height: 327px;
 }
 
-.management > div > ul {
+.management>div>ul {
   max-width: 300px;
   padding-left: 65px;
-  
 }
 
-.management > div > h3 {
+.management>div>h3 {
   color: rgba(253, 199, 36, 1);
   font-family: Montserrat;
   font-size: 24px;
@@ -311,7 +319,7 @@ header {
   padding: 51px 114px 0px 61px;
 }
 
-.management > div > ul > li {
+.management>div>ul>li {
   color: rgba(0, 0, 0, 0.5);
   font-family: Montserrat;
   font-size: 18px;
@@ -327,15 +335,15 @@ header {
   bottom: 135px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 372px;
-  height: 327px; 
+  height: 327px;
 }
 
-.marketing-servive > div > ul {
+.marketing-servive>div>ul {
   max-width: 300px;
   padding-left: 65px;
 }
 
-.marketing-servive > div > h3 {
+.marketing-servive>div>h3 {
   color: rgba(253, 199, 36, 1);
   font-family: Montserrat;
   font-size: 24px;
@@ -349,7 +357,7 @@ header {
   margin-bottom: 0px;
 }
 
-.marketing-servive > div > ul > li {
+.marketing-servive>div>ul>li {
   color: rgba(0, 0, 0, 0.5);
   font-family: Montserrat;
   font-size: 18px;
@@ -373,7 +381,7 @@ header {
   margin: 0px auto;
 }
 
-.achievements > img {
+.achievements>img {
   max-width: 100%;
   height: 504px;
 }
@@ -396,10 +404,14 @@ header {
   flex-direction: column;
 }
 
-.featured > img {
-  max-width: 1219px;
-  height: 182px;
+.featured>div {
   margin: 0px auto;
+}
+
+.featured>div>img {
+  max-width: 1219px;
+  width: 100%;
+  height: 182px;
 }
 
 .as-featured-in {
@@ -441,7 +453,7 @@ header {
   margin-bottom: 33px;
 }
 
-.strategic > img {
+.strategic>img {
   margin: 0px auto;
   max-width: 80%;
   height: 354px;
@@ -454,7 +466,7 @@ header {
   flex-direction: column;
 }
 
-.title-newsroom > h1 {
+.title-newsroom>h1 {
   text-align: center;
   color: #0B1BDD;
   font-Weight: bold;
@@ -465,7 +477,7 @@ header {
   margin-bottom: 33px;
 }
 
-.title-newsroom > p {
+.title-newsroom>p {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -489,7 +501,7 @@ header {
   max-width: 365px;
 }
 
-.frankfurt-motor-show > img {
+.frankfurt-motor-show>img {
   max-width: 365px;
   width: 100%;
   height: 242px;
@@ -501,7 +513,7 @@ header {
   margin: 0px auto;
 }
 
-.title-area > h6 {
+.title-area>h6 {
   color: rgba(64, 83, 189, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -511,7 +523,7 @@ header {
   letter-spacing: 0.05em;
 }
 
-.title-area > h5 {
+.title-area>h5 {
   color: rgba(0, 0, 0, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -521,7 +533,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.title-area > p {
+.title-area>p {
   opacity: 50%;
   max-width: 278px;
   font-family: Montserrat;
@@ -536,7 +548,7 @@ header {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.wordpress > img {
+.wordpress>img {
   max-width: 365px;
   width: 100%;
   height: 242px;
@@ -548,7 +560,7 @@ header {
   margin: 0px auto;
 }
 
-.title-area > h6 {
+.title-area>h6 {
   color: rgba(64, 83, 189, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -558,7 +570,7 @@ header {
   letter-spacing: 0.05em;
 }
 
-.title-area > h5 {
+.title-area>h5 {
   color: rgba(0, 0, 0, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -568,7 +580,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.title-area > p {
+.title-area>p {
   opacity: 50%;
   max-width: 278px;
   font-family: Montserrat;
@@ -583,7 +595,7 @@ header {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.explore > img {
+.explore>img {
   max-width: 365px;
   width: 100%;
   height: 242px;
@@ -595,7 +607,7 @@ header {
   margin: 0px auto;
 }
 
-.title-area > h6 {
+.title-area>h6 {
   color: rgba(64, 83, 189, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -605,7 +617,7 @@ header {
   letter-spacing: 0.05em;
 }
 
-.title-area > h5 {
+.title-area>h5 {
   color: rgba(0, 0, 0, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -615,7 +627,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.title-area > p {
+.title-area>p {
   opacity: 50%;
   max-width: 278px;
   font-family: Montserrat;
@@ -635,7 +647,7 @@ header {
   padding-bottom: 86px;
 }
 
-.our-team > h1 {
+.our-team>h1 {
   color: rgba(64, 83, 189, 1);
   font-family: Montserrat;
   font-style: normal;
@@ -662,8 +674,9 @@ header {
   height: calc(100vh - 217px);
 }
 
-.young-man > img {
+.young-man>img {
   max-width: 341px;
+  width: 100%;
   height: 510px;
 }
 
@@ -671,23 +684,24 @@ header {
   margin: 0px 16px;
 }
 
-.the-woman > img {
+.the-woman>img {
   max-width: 399px;
+  width: 100%;
   height: 598px;
 }
 
-.our-team > p {
+.our-team>p {
   color: rgba(0, 0, 0, 0.5);
   font-family: Montserrat;
   font-style: normal;
   font-size: 12px;
   line-height: 18px;
-  text-align: center; 
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
-.the-woman > p:first-child {
-  color:rgba(0, 0, 0, 0.5);
+.the-woman>p:first-child {
+  color: rgba(0, 0, 0, 0.5);
   font-family: montserrat;
   font-weight: 700;
   font-style: normal;
@@ -698,7 +712,7 @@ header {
 }
 
 .the-woman {
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-family: montserrat;
   font-weight: 500;
   font-style: italic;
@@ -712,8 +726,9 @@ header {
   height: calc(100vh - 217px);
 }
 
-.old-man > img {
+.old-man>img {
   max-width: 341px;
+  width: 100%;
   height: 510px;
 }
 
@@ -727,14 +742,14 @@ footer {
   flex: 2;
 }
 
-.logo-yellow-footer > img {
+.logo-yellow-footer>img {
   margin: 0px 0px 54px 66px;
   max-width: 173px;
   width: 100%;
   height: 47px;
 }
 
-.icon > img {
+.icon>img {
   max-width: 26px;
   height: 26px;
 }
@@ -743,12 +758,12 @@ footer {
   flex: 1;
 }
 
-.content-footer > p {
+.content-footer>p {
   color: #000000;
   opacity: 50%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 21px; 
+  line-height: 21px;
 }
