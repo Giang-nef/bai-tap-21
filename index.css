@@ -6,6 +6,8 @@ body {
 /* HEADER */
 
 header {
+  max-width: 1366px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding-bottom: 105px;
@@ -15,12 +17,13 @@ header {
 /* NAVBAR */
 
 .nav-area {
+  width: 1366px;
   width: 100%;
 }
 
 .nav {
-  max-width: 1500px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 15px auto 0px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 47px;
@@ -57,7 +60,8 @@ header {
 
 .hello-area {
   background-image: url(./images/backgroup-area.png);
-  max-width: 100%;
+  max-width: 1336px;
+  width: 100%;
   height: 522px;
   display: flex;
   flex-direction: column;
@@ -78,11 +82,13 @@ header {
   bottom: 75px;
   left: 30px;
   max-width: 337px;
+  width: 100%;
   height: 280px;
 }
 
-.sum-txt-hello {
+.txt-hello {
   width: 100%;
+  z-index: 1;
 }
 
 .txt-hello > h1 {
@@ -94,6 +100,7 @@ header {
   font-size: 200px;
   line-height: 244px;
   display: flex;
+  justify-content: center;
   align-items: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;  
@@ -114,6 +121,11 @@ header {
 }
 
 /* ABOUT-COMPANY */
+
+main {
+  max-width: 1366px;
+  width: 100%;
+}
 
 .about-company {
   max-width: 80%;
@@ -671,7 +683,7 @@ header {
 }
 
 .young-man {
-  height: calc(100vh - 217px);
+  height: calc(100vh - 400px);
 }
 
 .young-man>img {
@@ -723,7 +735,7 @@ header {
 }
 
 .old-man {
-  height: calc(100vh - 217px);
+  height: calc(100vh - 400px);
 }
 
 .old-man>img {
@@ -733,7 +745,7 @@ header {
 }
 
 footer {
-  max-width: 100%;
+  max-width: 1366px;
   width: 100%;
   display: flex;
 }
@@ -747,6 +759,12 @@ footer {
   max-width: 173px;
   width: 100%;
   height: 47px;
+}
+
+.icon {
+  position: relative;
+  left: 80px;
+  flex: 1px;
 }
 
 .icon>img {
